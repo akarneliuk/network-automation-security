@@ -4,7 +4,7 @@ If you don't think about network security, there might be someone else in your n
 ## Table of Contents
 Tool | Description
 --- | --- 
- [crootca](https://github.com/) | The containerized root CA based on the Alpine Linux and OpenSSL
+ [crootca](https://github.com/akarneliuk/network-automation-security/tree/main/crootca) | The containerized root CA based on the Alpine Linux and OpenSSL
 
 ## Requirements
 - Docker engine
@@ -12,6 +12,6 @@ Tool | Description
 - Python (preferably the latest)
 
 ## Applicability
-Any *-NIX based system (e.g., Linux, Unix, MAC OS). In fact, those Python scipts perfectly run on Raspbery PI as well (tested at PI 4B).
+Any *-NIX based system (e.g., Linux, Unix, MAC OS, Raspberry PI)
 
-(c)2020-2021, karneliuk.com
+(c)2019-2021, karneliuk.com
