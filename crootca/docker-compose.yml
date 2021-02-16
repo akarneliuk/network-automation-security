@@ -1,0 +1,14 @@
+# Containerised PKI
+# (c)2019-2021, Karneliuk.com
+---
+version: "3.3"
+services:
+    crootca:
+        build: .
+        entrypoint: ['/bin/sh', '/opt/run.sh']
+        volumes: 
+            - "st:/opt/rootca"
+        hostname: rootca.karneliuk.com
+volumes:
+    st:
+...
